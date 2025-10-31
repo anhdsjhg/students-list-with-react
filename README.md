@@ -26,7 +26,7 @@ _Main screen with students list:_
 ![Students List](/public/screenshots/student-list.png)
 
 _Add student modal:_  
-![Add Student](students-list/public/screenshots/add-new-student.png)
+![Add Student](/public/screenshots/add-new-student.png)
 
 _Search and filters:_  
 ![Search](/public/screenshots/search-student.png)
