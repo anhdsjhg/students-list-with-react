@@ -20,6 +20,28 @@ The app also includes light/dark theme support and pagination.
 
 ---
 
+## Screenshots
+
+_Main screen with students list:_  
+![Students List](public/screenshots/student-list.png)
+
+_Add student modal:_  
+![Add Student](public/screenshots/add-new-student.png)
+
+_Search and filters:_  
+![Search](public/screenshots/search-student.png)
+![Filter](public/screenshots/filters-byGroup-Ages.png)
+
+_Detail students:_  
+![Students List](public/screenshots/details-student-editAndDelete.png)
+
+_Edit student modal:_  
+![Edit Student](public/screenshots/edit-student.png)
+
+_Light mode:_  
+![Light mode](public/screenshots/light-mode.png)
+
+
 ## Technologies Used
 
 - **React**  
@@ -38,14 +60,38 @@ Clone the repository:
 git clone https://github.com/your-username/students-list-with-react.git
 cd students-list-with-react
 
-# Install dependencies
+Install dependencies:
+
 npm install
 
-# Run dev server
+
+Running the Project
+
+Start the development server:
 npm run dev
 
-# Build for production
+Build for production:
 npm run build
 
-# Run ESLint
-npm run lint
+
+API Integration
+
+The app uses a Mock API or backend for CRUD operations:
+
+getStudents() – Fetch all students
+
+createStudent(student) – Add a new student
+
+updateStudent(id, student) – Update an existing student
+
+deleteStudent(id) – Delete a student
+
+These functions are located in src/services/api.ts and used in App.tsx.
+
+
+Deployment
+
+The project can be deployed using GitHub Pages:
+
+npm run build
+npm run deploy
