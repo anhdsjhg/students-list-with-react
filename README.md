@@ -94,4 +94,8 @@ Deployment
 The project can be deployed using GitHub Pages:
 
 npm run build
+<<<<<<< HEAD
 npm run deploy
+=======
+npm run deploy
+>>>>>>> 418ac34 (Update code, README and screenshots)

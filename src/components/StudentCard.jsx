@@ -5,7 +5,7 @@ export function StudentCard({ student, onCardClick }) {
       onClick={() => onCardClick(student)}
     >
       <div className="flex justify-between items-center mb-2">
-        <img src={student.avatar} className="w-15 rounded-full" />
+        <img src={student.avatar} className="w-15 h-15 object-cover rounded-full" />
         <div className="flex flex-col items-end">
           <h2 className="text-2xl text-gray-400 font-semibold">{student.name}</h2>
           <h2 className="text-gray-400 text-md">

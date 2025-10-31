@@ -61,16 +61,14 @@ function App() {
   };
 
   const handleAddStudent = async (studentData) => {
-    const newStudent = {
-      name: formData.get("name").trim(),
-      email: formData.get("email").trim(),
-      age: Number(formData.get("age")), 
-      group: formData.get("group"),
-      avatar: formData.get("avatar") || "https://via.placeholder.com/150",
-    };
-
     try {
-      const savedStudent = await createStudent(studentData); 
+      const studentToSave = {
+        ...studentData,
+        avatar: studentData.avatar || "https://via.placeholder.com/150",
+        age: Number(studentData.age), 
+      };
+
+      const savedStudent = await createStudent(studentToSave);
       setStudents([...students, savedStudent]);
       setIsAddModalOpen(false);
     } catch (error) {
