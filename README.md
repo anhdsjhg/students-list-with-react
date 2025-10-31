@@ -23,23 +23,23 @@ The app also includes light/dark theme support and pagination.
 ## Screenshots
 
 _Main screen with students list:_  
-![Students List](public/screenshots/student-list.png)
+![Students List](/public/screenshots/student-list.png)
 
 _Add student modal:_  
-![Add Student](public/screenshots/add-new-student.png)
+![Add Student](/public/screenshots/add-new-student.png)
 
 _Search and filters:_  
-![Search](public/screenshots/search-student.png)
-![Filter](public/screenshots/filters-byGroup-Ages.png)
+![Search](/public/screenshots/search-student.png)
+![Filter](/public/screenshots/filters-byGroup-Ages.png)
 
 _Detail students:_  
-![Students List](public/screenshots/details-student-editAndDelete.png)
+![Students List](/public/screenshots/details-student-editAndDelete.png)
 
 _Edit student modal:_  
-![Edit Student](public/screenshots/edit-student.png)
+![Edit Student](/public/screenshots/edit-student.png)
 
 _Light mode:_  
-![Light mode](public/screenshots/light-mode.png)
+![Light mode](/public/screenshots/light-mode.png)
 
 
 ## Technologies Used
